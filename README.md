@@ -1,2 +1,3 @@
 Project Step Steps
-- Setup SQL Database
+- Setup SQL Database in application.properties
+- 
