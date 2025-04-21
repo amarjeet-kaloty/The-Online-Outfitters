@@ -21,7 +21,7 @@ public class Transaction {
     private User customer;
 
     @OneToOne
-    private Order order;
+    private Orders orders;
 
     @ManyToOne
     private Seller seller;

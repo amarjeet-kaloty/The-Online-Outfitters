@@ -1,14 +1,8 @@
 package com.SpringReactCollective.The.Online.Outfitters.model;
 
-import jakarta.persistence.Entity;
 import lombok.*;
 
-@Entity
-@Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
-@EqualsAndHashCode
+@Data
 public class BusinessDetails {
 
     private String businessName;

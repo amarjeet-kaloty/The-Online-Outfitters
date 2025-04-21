@@ -18,7 +18,7 @@ public class Cart {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @OneToOne(mappedBy = "cart", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToOne
     private User user;
 
     @OneToMany
@@ -33,6 +33,4 @@ public class Cart {
     private int discount;
 
     private String couponCode;
-
-
 }

@@ -18,7 +18,7 @@ public class OrderItem {
 
     @JsonIgnore
     @ManyToOne
-    private Order order;
+    private Orders orders;
 
     @ManyToOne
     private Product product;
